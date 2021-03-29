@@ -2,6 +2,7 @@ import my_family
 from retrieve_month import RetrieveMonth
 from birthday_locations import BirthdayLocations
 from sweepstakes import SweepStakes
+import linked_list_demo
 
 
 def print_hi(name):
@@ -22,5 +23,8 @@ if __name__ == '__main__':
     new_sweepstakes.enroll_contestants()
     new_sweepstakes.pick_winner()   # Sweepstakes contestants
 
-    # User STory 2
+    # User Story 2
     my_family.setup()
+
+    # User Story 3
+    linked_list_demo.exec_linked_list()
