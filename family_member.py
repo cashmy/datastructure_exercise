@@ -2,9 +2,9 @@ class FamilyMember:
 
     def __init__(self, first_name, last_name, relationship):
         self.family_member = {
-            "first_name": first_name,
-            "last_name": last_name,
-            "relationship": relationship
+            'first_name': first_name,
+            'last_name': last_name,
+            'relationship': relationship
         }
 
     def print_family_member(self):
