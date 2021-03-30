@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added solution for User Story 3: Linked List (add_to_beginning and contains)">
-      <change afterPath="$PROJECT_DIR$/binary_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_node.py" afterDir="false" />
+    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added solution for User Story 4: Binary Tree (class, insert, search, and print)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617052952957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added solution for User Story 4: Binary Tree (class, insert, search, and print)">
+      <created>1617115753585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617115753585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +129,7 @@
     <MESSAGE value="Rtv National Pi Day month: using a Tuple" />
     <MESSAGE value="Refactors solution for User Story 1a and 1b to use classes. &#10;Added solution for User Story 1c." />
     <MESSAGE value="Added solution for User Story 3: Linked List (add_to_beginning and contains)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution for User Story 3: Linked List (add_to_beginning and contains)" />
+    <MESSAGE value="Added solution for User Story 4: Binary Tree (class, insert, search, and print)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution for User Story 4: Binary Tree (class, insert, search, and print)" />
   </component>
 </project>

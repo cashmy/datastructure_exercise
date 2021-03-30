@@ -37,8 +37,10 @@ class BinaryNode:
 
     def print_tree(self):
         # This prints a "sorted" tree.
-        # Because the current "rule" is that left is the smaller side and right is the larger side
-
+        # This uses an in-order traversal method
+        #       1) Traverse the left side
+        #       2) Visit the root
+        #       3) Traverse the right side
         # Print left side
         if self.left_child_node:  # if exists move down the branch 'smaller number'
             self.left_child_node.print_tree()
@@ -48,6 +50,20 @@ class BinaryNode:
         # Print right side
         if self.right_child_node:  # Next check for the right side 'larger number'
             self.right_child_node.print_tree()
+
+    def print_tree_pre_order(self):
+        # This prints a "sorted" tree.
+        # This uses an in-order traversal method
+        #       1) Visit the root
+        #       2) Traverse the left side
+        #       3) Traverse the right side
+        print(self.data),  # print self
+        # Print left side
+        if self.left_child_node:  # if exists move down the branch 'smaller number'
+            self.left_child_node.print_tree_pre_order()
+        # Print right side
+        if self.right_child_node:  # Next check for the right side 'larger number'
+            self.right_child_node.print_tree_pre_order()
 
     @staticmethod
     def search_results(data, found_data):

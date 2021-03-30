@@ -11,8 +11,14 @@ def create_tree():
     root.insert_node(18)
 
     print('\n\nNode entry order: 12, 6, 14, 3, 7, 13, 18')
+    print('This uses an in-order traversal method.')
     print('Printing the sorted tree')
     root.print_tree()
+
+    print('\n\nNode entry order: 12, 6, 14, 3, 7, 13, 18')
+    print('This uses a pre-order traversal method.')
+    print('Printing the sorted tree')
+    root.print_tree_pre_order()
 
     print('\n\nNode Search Tests:')
     root.search_tree(13)
