@@ -3,6 +3,7 @@ from retrieve_month import RetrieveMonth
 from birthday_locations import BirthdayLocations
 from sweepstakes import SweepStakes
 import linked_list_demo
+import binary_list
 
 
 def print_hi(name):
@@ -28,3 +29,6 @@ if __name__ == '__main__':
 
     # User Story 3
     linked_list_demo.exec_linked_list()
+
+    # User Story 4
+    binary_list.create_tree()

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Refactors solution for User Story 1a and 1b to use classes. &#10;Added solution for User Story 1c.">
-      <change afterPath="$PROJECT_DIR$/linked_list_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node.py" afterDir="false" />
+    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added solution for User Story 3: Linked List (add_to_beginning and contains)">
+      <change afterPath="$PROJECT_DIR$/binary_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary_node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617047867171</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added solution for User Story 3: Linked List (add_to_beginning and contains)">
+      <created>1617052952957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617052952957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,23 +115,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Setup" />
     <MESSAGE value="Executed the solution to user story #2: Family Member Dictionary" />
     <MESSAGE value="Rtv National Pi Day month: using a Tuple" />
     <MESSAGE value="Refactors solution for User Story 1a and 1b to use classes. &#10;Added solution for User Story 1c." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactors solution for User Story 1a and 1b to use classes. &#10;Added solution for User Story 1c." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/linked_list_demo.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added solution for User Story 3: Linked List (add_to_beginning and contains)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solution for User Story 3: Linked List (add_to_beginning and contains)" />
   </component>
 </project>
