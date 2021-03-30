@@ -88,7 +88,6 @@ class LinkedList:
             print('The given previous node must in the list')
             return
 
-
         node = Node(data)  # Add node
         node.next = previous_node.next
         previous_node.next = node
