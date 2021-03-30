@@ -40,28 +40,28 @@ class LinkedList:
         if self.head is None:
             return
         # Store head node
-        temporary_data = self.head
+        temporary_node = self.head
 
         # If head node itself holds the data to be deleted, update the list head, which removes the node.
-        if temporary_data is not None:
-            if temporary_data.data == data:
-                self.head = temporary_data.next
+        if temporary_node is not None:
+            if temporary_node.data == data:
+                self.head = temporary_node.next
                 return
 
         # Search for the data to be deleted, keep track of the
         # previous node as we need to change 'prev.next'
-        while temporary_data is not None:
-            if temporary_data.data == data:
+        while temporary_node is not None:
+            if temporary_node.data == data:
                 break
-            previous_data = temporary_data
-            temporary_data = temporary_data.next
+            previous_node = temporary_node
+            temporary_node = temporary_node.next
 
         # If the data was not present in the list, simply return
-        if temporary_data is None:
+        if temporary_node is None:
             return
 
         # unlink the previous node, and link to the next node
-        previous_data.next = temporary_data.next
+        previous_node.next = temporary_node.next
 
     def print_list(self):
         temporary_data = self.head
@@ -69,3 +69,15 @@ class LinkedList:
         while temporary_data:
             print(f'List element: {temporary_data.data}'),
             temporary_data = temporary_data.next
+
+    def insert_node(self, previous_node_data, data):
+        temporary_node = self.head
+
+        while temporary_node is not None:
+            if temporary_node.data == previous_node_data:
+                break
+            temporary_node = temporary_node.next
+
+        node = Node(data)  # Add node
+        node.next = temporary_node.next
+        temporary_node.next = node

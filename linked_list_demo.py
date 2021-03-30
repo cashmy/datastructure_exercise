@@ -19,3 +19,7 @@ def exec_linked_list():
     print('\nNow deleting node 60')
     linked_list.delete_node(60)
     linked_list.print_list()
+
+    print(f'\nNow reinsert 60 after 55')
+    linked_list.insert_node(55, 60)
+    linked_list.print_list()
