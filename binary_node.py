@@ -72,3 +72,4 @@ class BinaryNode:
             print(f'Node found: {found_data}')
         else:
             print(f'Node: {data} not found')
+

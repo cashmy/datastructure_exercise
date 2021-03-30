@@ -34,3 +34,38 @@ class LinkedList:
             temporary_node = temporary_node.next
 
         return status
+
+    def delete_node(self, data):
+        # return if empty list
+        if self.head is None:
+            return
+        # Store head node
+        temporary_data = self.head
+
+        # If head node itself holds the data to be deleted, update the list head, which removes the node.
+        if temporary_data is not None:
+            if temporary_data.data == data:
+                self.head = temporary_data.next
+                return
+
+        # Search for the data to be deleted, keep track of the
+        # previous node as we need to change 'prev.next'
+        while temporary_data is not None:
+            if temporary_data.data == data:
+                break
+            previous_data = temporary_data
+            temporary_data = temporary_data.next
+
+        # If the data was not present in the list, simply return
+        if temporary_data is None:
+            return
+
+        # unlink the previous node, and link to the next node
+        previous_data.next = temporary_data.next
+
+    def print_list(self):
+        temporary_data = self.head
+        print('\n=== Linked List Elements===')
+        while temporary_data:
+            print(f'List element: {temporary_data.data}'),
+            temporary_data = temporary_data.next
