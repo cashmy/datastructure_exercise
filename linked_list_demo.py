@@ -21,5 +21,5 @@ def exec_linked_list():
     linked_list.print_list()
 
     print(f'\nNow reinsert 60 after 55')
-    linked_list.insert_node(55, 60)
+    linked_list.insert_node_data(55, 60)
     linked_list.print_list()

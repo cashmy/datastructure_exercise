@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added new class for an AVL Binary Search Tree. Have all methods except for rotation accomplished">
+    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added determination and internal notation for rotation of branches.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bst_avl.py" beforeDir="false" afterPath="$PROJECT_DIR$/bst_avl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bst_avl_test.py" />
   </component>
-  <component name="RunManager" selected="Python.BST AVL">
+  <component name="RunManager" selected="Python.main">
     <configuration name="BST AVL" type="PythonConfigurationType" factoryName="Python">
       <module name="datastructure_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617135829939</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added determination and internal notation for rotation of branches.">
+      <created>1617137643616</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617137643616</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +209,8 @@
     <MESSAGE value="Added an insert_method" />
     <MESSAGE value="Renamed insert_node to be insert_node_data (more fitting)&#10;Added an insert_node(object, data) function" />
     <MESSAGE value="Added new class for an AVL Binary Search Tree. Have all methods except for rotation accomplished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new class for an AVL Binary Search Tree. Have all methods except for rotation accomplished" />
+    <MESSAGE value="Added determination and internal notation for rotation of branches." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added determination and internal notation for rotation of branches." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
