@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added a remove_node method to the linked list.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_demo.py" afterDir="false" />
+    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added an insert_method">
       <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617121016174</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added an insert_method">
+      <created>1617122321030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617122321030</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +151,8 @@
     <MESSAGE value="Added solution for User Story 4: Binary Tree (class, insert, search, and print)" />
     <MESSAGE value="Added/Documented solutions for Bonus user stories.&#10;I was already using an in-order traversal method for the base print function. Added a pre-order traversal print method." />
     <MESSAGE value="Added a remove_node method to the linked list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a remove_node method to the linked list." />
+    <MESSAGE value="Added an insert_method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an insert_method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

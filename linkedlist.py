@@ -70,7 +70,7 @@ class LinkedList:
             print(f'List element: {temporary_data.data}'),
             temporary_data = temporary_data.next
 
-    def insert_node(self, previous_node_data, data):
+    def insert_node_data(self, previous_node_data, data):
         temporary_node = self.head
 
         while temporary_node is not None:
@@ -81,3 +81,14 @@ class LinkedList:
         node = Node(data)  # Add node
         node.next = temporary_node.next
         temporary_node.next = node
+
+    @staticmethod
+    def insert_node(previous_node, data):
+        if previous_node is None:
+            print('The given previous node must in the list')
+            return
+
+
+        node = Node(data)  # Add node
+        node.next = previous_node.next
+        previous_node.next = node
