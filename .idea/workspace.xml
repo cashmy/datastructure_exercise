@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Fixed insert_node_data function">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a4558f49-87ac-4bd0-b4cc-406fe69578e1" name="Default Changelist" comment="Added rotation functionality to balance BST">
       <change beforePath="$PROJECT_DIR$/bst_avl.py" beforeDir="false" afterPath="$PROJECT_DIR$/bst_avl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bst_avl_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bst_avl_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bst_avl_test.py" />
   </component>
-  <component name="RunManager" selected="Python.BST AVL">
+  <component name="RunManager" selected="Python.main">
     <configuration name="BST AVL" type="PythonConfigurationType" factoryName="Python">
       <module name="datastructure_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617138577451</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added rotation functionality to balance BST">
+      <created>1617156309196</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617156309196</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +225,8 @@
     <MESSAGE value="Added new class for an AVL Binary Search Tree. Have all methods except for rotation accomplished" />
     <MESSAGE value="Added determination and internal notation for rotation of branches." />
     <MESSAGE value="Fixed insert_node_data function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed insert_node_data function" />
+    <MESSAGE value="Added rotation functionality to balance BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rotation functionality to balance BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -229,8 +238,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/bst_avl.py</url>
-          <line>93</line>
+          <line>94</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

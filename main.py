@@ -4,6 +4,7 @@ from birthday_locations import BirthdayLocations
 from sweepstakes import SweepStakes
 import linked_list_demo
 import binary_list
+import bst_avl_test
 
 
 def print_hi(name):
@@ -32,3 +33,6 @@ if __name__ == '__main__':
 
     # User Story 4
     binary_list.create_tree()
+
+    # Bonus user story 6
+    bst_avl_test.bst_avl_execute_test()

@@ -16,6 +16,7 @@ class BstTree:
 
         # Perform normal insert operations
         if not node:  # assume root node
+            print(f'Inserting data: {data}')
             return BstAvl(data)
         elif data < node.data:
             node.left_child_node = self.insert_node(node.left_child_node, data)
